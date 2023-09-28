@@ -1,0 +1,9 @@
+.pricing-head > h1 > span {
+  background: linear-gradient(
+    270deg,
+    rgb(182, 32, 224) 5%,
+    rgb(67, 83, 255) 55.01%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

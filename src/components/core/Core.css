@@ -1,0 +1,26 @@
+.core-section::before {
+  --gradientColor3: #1e2961;
+  background: linear-gradient(
+    -170deg,
+    #1e2961 6.36%,
+    var(--gradientColor3) 45.01%
+  );
+  inset: 0px 0px 50px;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 80%, 0px 100%);
+  content: "";
+  position: absolute;
+  transition: --gradientColor3 2s cubic-bezier(0.255, 0.765, 0.695, 1.03) 0s;
+}
+
+.core-section-overlay {
+  background: linear-gradient(
+      138deg,
+      rgb(140, 0, 255) 6.36%,
+      rgba(67, 83, 255, 0) 45.01%
+    )
+    no-repeat;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 80%, 0px 100%);
+  inset: 0px 0px 50px;
+  position: absolute;
+  transition: --gradientColor1 2s cubic-bezier(0.255, 0.765, 0.695, 1.03) 0s;
+}
