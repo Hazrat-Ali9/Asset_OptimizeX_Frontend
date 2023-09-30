@@ -52,3 +52,24 @@ export const coreItems = [
     icon: colorPalette,
   },
 ];
+
+export const enhanceItems = [
+  {
+    title: "Content Automation",
+    description:
+      "Templates allow any organization to build consistent brand assets, on-demand, without sapping time from your creative team.",
+    icon: cloudIcon,
+  },
+  {
+    title: "Resource Management",
+    description:
+      "Ensure your marketing and creative teams hit every deadline by effectively resourcing and reporting on projects.",
+    icon: colorPalette,
+  },
+  {
+    title: "Collaborative Work Management",
+    description:
+      "Centralize and automate processes to request, plan, review, and execute on your work and content.",
+    icon: lockIcon,
+  },
+];

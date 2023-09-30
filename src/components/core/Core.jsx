@@ -25,7 +25,7 @@ const Core = () => {
           {coreItems.map((item, index) => (
             <div
               key={index}
-              className="bg-white p-5 rounded-lg flex-col flex items-baseline gap-y-4"
+              className="bg-white p-5 rounded-lg flex-col flex items-baseline gap-y-4 shadow-2xl"
             >
               <Image alt="cloud icon" src={item.icon} width={40} height={40} />
               <h3 className="text-xl text-[#000e4b] font-medium">

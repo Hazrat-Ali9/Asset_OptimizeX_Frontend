@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingPageCTA = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-[#f6f7fd]">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl mb-6">
           See Brandfolder. <span className="font-bold">Love Brandfolder.</span>

@@ -1,0 +1,13 @@
+.enhance-section::before {
+  background: linear-gradient(90deg, #8c00ff, #6987d7);
+  bottom: 130px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 74%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 74%);
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  transition: --gradientColor1 2s cubic-bezier(0.255, 0.765, 0.695, 1.03),
+    --gradientColor2 2s cubic-bezier(0.255, 0.765, 0.695, 1.03);
+}
